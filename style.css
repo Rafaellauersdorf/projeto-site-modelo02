@@ -1,0 +1,98 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Gluten:wght@300&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=East+Sea+Dokdo&family=Merienda&display=swap');
+
+:root {
+    --fonte01: 'Times New Roman', Times, serif;
+    --fonte02: 'Gluten', cursive;
+    --fonte03: 'Merienda', cursive;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+    font-size: 1em;
+}
+
+body {
+    min-height: 100vh;
+    background-color: darkgoldenrod;
+    font-family: var(--fonte03);
+}
+header {
+    background-color: lightgreen;
+    color: white;
+    text-align: center;
+}
+header > h1 {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    font-variant: small-caps;
+    font-family: var(--fonte02);
+    font-size: 7vw;
+}
+
+header > p {
+    padding-bottom: 50px;
+}
+
+footer a {
+    color: white;
+    text-decoration: none;
+    font-weight: bolder;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+section {
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    padding-left: 30px;
+    line-height: 2em;
+    font-size: 3.7vw;
+}
+
+section > p {
+    padding-bottom: 2em;
+}
+
+.normal {
+    background-color: white;
+    color: darkblue;
+}
+
+.imagem {
+    background-color: rgb(66, 59, 59);
+    color: white;
+    box-shadow: inset 6px 6px 13px 0px rgba (0,0,0,0.473);
+    background-size: cover;
+    background-attachment: fixed;   
+}
+
+.imagem > p {
+    background-color: rgba(0,0,0,0.5);
+    padding: 5px;
+    display: inline-block;
+    text-shadow: 1px 1px 0px black;
+}
+
+#img01 {
+    background-image: url('imagens/imagesJesus.jpg');
+    background-position: center center;
+}
+
+#img02 {
+    background-image: url('imagens/o\ cristo\ da\ gloria.jpg');
+    background-position: center center;
+}
+
+footer {
+    background-color: cadetblue;
+    color: aliceblue;
+    text-align: center;
+    padding: 10px;
+}
