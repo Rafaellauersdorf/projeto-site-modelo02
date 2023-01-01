@@ -18,24 +18,28 @@
 
 body {
     min-height: 100vh;
-    background-color: darkgoldenrod;
+    background-image: url('imagens/jesusglorificado.jpg');
     font-family: var(--fonte03);
+    background-size: 50% 50%;
+    
 }
 header {
-    background-color: lightgreen;
+    background-image: linear-gradient(to bottom, red,orange,yellow);
     color: white;
     text-align: center;
 }
 header > h1 {
-    padding-top: 50px;
-    padding-bottom: 50px;
+    padding-top: 60px;
+    padding-bottom: 60px;
     font-variant: small-caps;
     font-family: var(--fonte02);
-    font-size: 7vw;
+    font-size: 3.5em;
 }
 
-header > p {
-    padding-bottom: 50px;
+header > p > audio {
+    position: absolute;
+    left: 1%;
+    margin: -15px 2px;
 }
 
 footer a {
@@ -51,9 +55,14 @@ footer a:hover {
 section {
     padding-top: 10vh;
     padding-bottom: 10vh;
-    padding-left: 30px;
+    padding-left: 10vh;
+    padding-right: 10vh;
     line-height: 2em;
-    font-size: 3.7vw;
+    font-size: 1.8em;
+    max-width: 1200px;
+    min-width: 320px;
+    text-align: justify;
+    margin: auto;
 }
 
 section > p {
@@ -91,7 +100,7 @@ section > p {
 }
 
 footer {
-    background-color: cadetblue;
+    background-image: linear-gradient(to bottom, red,orange,yellow);
     color: aliceblue;
     text-align: center;
     padding: 10px;
